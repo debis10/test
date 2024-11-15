@@ -41,4 +41,5 @@ template_path = 'HEF_Form.docx'
 for i, data in enumerate(forms_data, start=1):
     output_path = f'HEF_Form_{i}.docx'
     fill_template(data, template_path, output_path)
-    print(f"Generated form {i} at {output_path}")
+    print(f"Generated form {i} at {output_path} okey")
+
